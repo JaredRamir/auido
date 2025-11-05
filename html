@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Media Showcase</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f0f4ff, #dbeafe);
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2563eb;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 400px;
+      flex: 1 1 300px;
+      text-align: center;
+    }
+    audio, video {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎧 My Audio & Video Gallery 🎬</h1>
+    <p>Enjoy some of my favorite clips and sounds!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Audio Track 1</h2>
+      <audio controls>
+        <source src="audio1.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <section>
+      <h2>Audio Track 2</h2>
+      <audio controls>
+        <source src="audio2.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </section>
+
+    <section>
+      <h2>Video Clip 1</h2>
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section>
+      <h2>Video Clip 2</h2>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Media Showcase | Designed by [Jared Ramiez]</p>
+  </footer>
+</body>
+</html>
